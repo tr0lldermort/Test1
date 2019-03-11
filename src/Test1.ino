@@ -5,6 +5,9 @@
  * Date:
  */
 
+
+#include "./h/myTemplate.h" // this has to be absolute for some reason, <> doesn't work
+
 // setup() runs once, when the device is first turned on.
 void setup() {
   // Put initialization like pinMode and begin functions here.
