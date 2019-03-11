@@ -1,0 +1,12 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "C_Cpp.default.configurationProvider": "particle.particle-vscode-core",
+    "files.associations": {
+        "*.ino": "cpp",
+        "freertos.h": "c"
+    },
+    "particle.targetDevice": "ArgonDev1",
+    "particle.firmwareVersion": "0.9.0",
+    "particle.targetPlatform": "argon",
+    "cortex-debug.openocdPath": "/home/danbot/.particle/toolchains/openocd/0.10.0-particle.1/bin/openocd"
+}
