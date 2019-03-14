@@ -8,6 +8,8 @@
 #define APPSYSTEM_H
 
 #include "application.h"
+#include <Particle.h>
+#include <string>
 
 //Define micro pins
 #define PIN_PRESSURESENSOR A5

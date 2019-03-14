@@ -2,7 +2,8 @@
     "extensions.ignoreRecommendations": true,
     "files.associations": {
         "*.ino": "cpp",
-        "freertos.h": "c"
+        "freertos.h": "c",
+        "string": "cpp"
     },
     "particle.targetDevice": "ArgonDev1",
     "particle.firmwareVersion": "0.9.0",

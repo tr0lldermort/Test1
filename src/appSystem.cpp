@@ -12,9 +12,9 @@ pressureSensor::pressureSensor()
     pinMode(PIN_PRESSURESENSOR, INPUT); // dont need to do this but it does make it clear that we are going to use this pin as AN in
 }
 
-float pressureSensor::getPressure()
+float pressureSensor::getPressure() // this is currently only a test function. will be srs when hardware is ready
 {
-    _pressure = pressureSensor::getVoltage();
+    _pressure = (pressureSensor::getVoltage()*10)/3.3;  // pretend 10 bar from 3.3V
     return _pressure;   //code to test whether I can call class funcs within eachother. edit - you can.
 }
 
